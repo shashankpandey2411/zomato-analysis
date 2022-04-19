@@ -1,0 +1,378 @@
+{%load static%}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/*STYLE HOME PAGE*/
+
+#home{
+    background-image: url("/static/img/hbg.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 40px;
+    padding-right: 80px;
+}
+
+ul li{
+    list-style: none;
+}
+
+ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 3vh;
+}
+
+ul li a:hover{
+    text-shadow: 2px 2px 4px rgb(84, 84, 192);
+    font-weight: bolder;
+}
+
+#projectcontent{
+    margin-left: 60px;
+    margin-top: 140px;
+    animation: projectcontent 3s ease-in-out;
+}
+
+@keyframes projectcontent{
+    0%{
+        opacity: 0;
+        transform: translateX(-40%);
+    }
+}
+
+#text1{
+    font-family: "Nunito", sans-serif;
+    font-size: 8vh;
+    cursor: default;
+    letter-spacing: 8px;
+    color: rgb(84, 84, 192);
+    text-shadow: 2px 2px 4px rgb(84, 84, 192);
+    margin-left: 280px;
+}
+
+#text2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: normal;
+    font-size: 3vh;
+    padding-bottom: 10px;
+    cursor: default;
+    color: antiquewhite;
+    margin-left: 600px;
+}
+
+#text3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: normal;
+    font-size: 3vh;
+    padding-bottom: 10px;
+    cursor: default;
+    color: antiquewhite;
+    margin-left: 350px;
+}
+
+#text4{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: normal;
+    font-size: 3vh;
+    padding-bottom: 20px;
+    cursor: default;
+    color: antiquewhite;
+    margin-left: 500px;
+}
+
+#button1 a{
+    text-decoration: none;
+    font-family: "Nunito", sans-serif;
+    font-size: 3vh;
+    text-align: center;
+    letter-spacing: 1px;
+    color: white;
+}
+
+#button1{
+    height: 50px;
+    width: 190px;
+    border-radius: 25px;
+    background-color: rgb(84, 84, 192);
+    border: 0;
+    margin-left: 535px;
+    
+}
+
+span:hover{
+    font-weight: bolder;
+}
+
+#button1:hover{
+    font-weight: bolder;
+    text-shadow: 2px 2px 4px grey;
+}
+
+#navbar{
+    animation: navbar 3s ease-in-out;
+}
+
+@keyframes navbar{
+    0%{
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+}
+
+/* STYLE ABOUT THE PROJECT PAGE*/
+
+#aboutproject{
+    background-image: url('/static/img/learnbg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+
+#text5{
+    font-family: "Nunito", sans-serif;
+    font-size: 5vh;
+    cursor: default;
+    letter-spacing: 8px;
+    color: rgb(84, 84, 192);
+    text-shadow: 2px 2px 4px grey;
+    position: absolute;
+    left: 480px;
+    top: 930px;
+}
+
+
+#text6{
+    position: absolute;
+    top: 1030px;
+    left: 330px;
+    font-size: 3vh;
+    cursor: default;
+}
+
+#text7{
+    position: absolute;
+    top: 1080px;
+    left: 330px;
+    font-size: 3vh;
+    cursor: default;
+}
+
+#text8{
+    position: absolute;
+    top: 1130px;
+    left: 480px;
+    font-size: 3vh;
+    cursor: default;
+}
+
+#text9{
+    position: absolute;
+    top: 1180px;
+    left: 330px;
+    font-size: 3vh;
+    cursor: default;
+}
+
+#text10{
+    position: absolute;
+    top: 1230px;
+    left: 420px;
+    font-size: 3vh;
+    cursor: default;
+}
+
+#python{
+    width: 100%;
+    height: 100vh;
+    opacity: 0.1;
+}
+
+/* STYLE ANALYTICS PAGE*/
+
+#analytics{
+    background-image: url('static/img/homebg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+#destop{
+    position: absolute;
+    top: 1720px;
+    left: 30px;
+    height: 50vh;
+    width: 50vh;
+    filter: drop-shadow(0 0 0.75rem grey);
+}
+
+#pie{
+    position: absolute;
+    top: 209vh;
+    opacity: 0.1;
+}
+
+#text11{
+    font-family: "Nunito", sans-serif;
+    font-size: 5vh;
+    cursor: default;
+    letter-spacing: 8px;
+    color: rgb(84, 84, 192);
+    text-shadow: 2px 2px 4px grey;
+    position: absolute;
+    left: 510px;
+    top: 1600px;
+}
+
+#text12{
+    position: absolute;
+    top: 1785px;
+    left: 500px;
+    font-size: 3vh;
+    cursor: default;
+}
+
+#text13{
+    position: absolute;
+    top: 1840px;
+    left: 500px;
+    font-size: 3vh;
+    cursor: default;
+}
+
+#text14{
+    position: absolute;
+    top: 1895px;
+    left: 650px;
+    font-size: 3vh;
+    cursor: default;
+}
+
+#text15{
+    position: absolute;
+    top: 1950px;
+    left: 500px;
+    font-size: 3vh;
+    cursor: default;
+}
+
+#text16{
+    position: absolute;
+    top: 2005px;
+    left: 850px;
+    font-size: 3vh;
+    cursor: default;
+}
+
+#text17{
+    position: absolute;
+    top: 1790px;
+    left: 13vh;
+    font-size: 3vh;
+    cursor: default;
+    letter-spacing: 2px;
+}
+
+#text17:hover{
+    color: rgb(84, 84, 192);
+}
+
+#git{
+    position: absolute;
+    top: 1855px;
+    left: 24vh;
+    cursor: pointer;
+}
+
+#git:hover{
+    text-shadow: 2px 2px 4px rgb(68, 63, 63);
+}
+
+#layer1{
+    display: flex;
+    position: absolute;
+    top: 230.5vh;
+    left: 8vh;
+}
+
+#icons{
+    display: flex;
+    position: absolute;
+    left: 35vh;
+}
+
+#minimize{
+    position: absolute;
+    left: 1vh;
+    cursor: pointer;
+}
+
+#minimize:hover{
+    background-color: grey;
+    color: azure;
+}
+
+#maximize{
+    position: absolute;
+    left: 3.5vh;
+    cursor: pointer;
+}
+
+#maximize:hover{
+    background-color: grey;
+    color: azure;
+}
+
+#close{
+    position: absolute;
+    left: 5.8vh;
+    cursor: pointer;
+}
+
+#close:hover{
+    background-color: red;
+    color: azure;
+}
+
+#sb{
+    background-color: rgb(43, 40, 40);
+    height: 3vh;
+    width: 36vh;
+    border-radius: 25vh;
+    position: absolute;
+    top: 230vh;
+    left: 7vh;
+}
+
+#searchbar{
+    position: absolute;
+    top: 230vh;
+    left: 9vh;
+    color: azure;
+    font-size: 2vh;
+}
+
+#layer3{
+    position: absolute;
+    top: 1830px;
+    left: 19vh;
+    font-size: 1.5vh;
+    cursor: default;
+}
