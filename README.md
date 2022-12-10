@@ -1,6 +1,7 @@
 # Zomato Analysis
 
-![Uploading Screenshot 2022-12-10 160144.png…]()
+![Screenshot 2022-12-10 160144](https://user-images.githubusercontent.com/84517279/206850747-6ebe96a8-cf6c-4472-b0cd-14f19588ea18.png)
+
 
 We were always fascinated by the food culture of Bengaluru. Restaurants from all over the world can
 be found here in Bengaluru. From United States to Japan, Russia to Antarctica, you get all type of
@@ -97,7 +98,3 @@ variables:
 • Rating text: text on the basis of rating of rating
 
 • Votes: Number of ratings casted by people
-
-
-
-
