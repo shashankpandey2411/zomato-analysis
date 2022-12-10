@@ -1,5 +1,7 @@
 # Zomato Analysis
 
+![Uploading Screenshot 2022-12-10 160144.png…]()
+
 We were always fascinated by the food culture of Bengaluru. Restaurants from all over the world can
 be found here in Bengaluru. From United States to Japan, Russia to Antarctica, you get all type of
 cuisines here. Delivery, Dine-out, Pubs, Bars, Drinks,Buffet, Desserts you name it and Bengaluru has
