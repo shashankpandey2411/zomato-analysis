@@ -1,4 +1,4 @@
-# zomato-analysis
+# Zomato Analysis
 
 We were always fascinated by the food culture of Bengaluru. Restaurants from all over the world can
 be found here in Bengaluru. From United States to Japan, Russia to Antarctica, you get all type of
