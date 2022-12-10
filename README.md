@@ -95,3 +95,7 @@ variables:
 • Rating text: text on the basis of rating of rating
 
 • Votes: Number of ratings casted by people
+
+
+
+
